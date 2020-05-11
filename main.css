@@ -1,0 +1,41 @@
+.house{
+    display: grid;
+    width: 100vw;
+    justify-content: center;
+    position: relative;
+}
+
+.house img{
+    position: absolute;
+    justify-self: center;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    grid-gap: 30px;
+    padding: 0 50px;
+}
+
+.menu .roof .colors, .menu .facede .colors, .menu .gutter .colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-self: center;
+}
+
+.colors{
+    margin-top: 30px;
+}
+
+.menu .roof .colors div, .menu .facede .colors div, .menu .gutter .colors div{
+    width: 50px;
+    height: 50px;
+    background: rgb(8, 110, 170);
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
