@@ -10,7 +10,7 @@ function swipeColorRoof(number) {
     } else if(number === 3){
         roof.src = "img/roof/classic-red.png"
     } else if(number === 4){
-        roof.src = "img/roof/blue.png"
+        roof.src = "img/roof/6029.png"
     } else if(number === 5){
         roof.src = "img/roof/classic-sprucegreen.png"
     } else if(number === 6){
@@ -18,7 +18,7 @@ function swipeColorRoof(number) {
     } else if(number === 7){
         roof.src = "img/roof/darkgrey.png"
     } else if(number === 8){
-        roof.src = "img/roof/vishnya.png"
+        roof.src = "img/roof/8019.png"
     } else if(number === 9){
         roof.src = "img/roof/black.png"
     } else if(number === 10){
@@ -67,5 +67,35 @@ function swipeColorGutter(number) {
         gutter.src = "img/gutter/rizhiy.png"
     } else if(number === 4){
         gutter.src = "img/gutter/seriy.png"
+    }
+}
+
+function swipeColorBinder(number) {
+    console.log(number);
+    let binder = document.getElementById("binder");
+    if(number === 0){
+        binder.src = "img/binder/8017p.png"
+    } else if( number === 1){
+        binder.src = "img/binder/6005.png"
+    } else if(number === 2){
+        binder.src = "img/binder/3005.png"
+    } else if(number === 3){
+        binder.src = "img/binder/3011.png"
+    } else if(number === 4){
+        binder.src = "img/binder/6005.png"
+    } else if(number === 5){
+        binder.src = "img/binder/6020.png"
+    } else if(number === 6){
+        binder.src = "img/binder/8004.png"
+    } else if(number === 7){
+        binder.src = "img/binder/8019.png"
+    } else if(number === 8){
+        binder.src = "img/binder/7024.png"
+    } else if(number === 9){
+        binder.src = "img/binder/9005.png"
+    } else if(number === 10){
+        binder.src = "img/binder/svitle.png"
+    } else if(number === 11){
+        binder.src = "img/binder/temne.png"
     }
 }
